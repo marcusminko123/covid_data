@@ -1,6 +1,6 @@
 ---
 title: "Cumulative deaths from COVID-19"
-author: "YOU"
+author: "Marcus Minko"
 date: "`r Sys.Date()`"
 output: 
   html_document: 
@@ -43,10 +43,10 @@ We will start by making our selection for the countries we want to explore.
 ```{r select-countries}
 countries <- c(
   "China",
-  "France",
-  "United Kingdom",
-  "US",
-  "Turkey"
+  "Brazil",
+  "Israel",
+  "Iraq",
+  "South Africa"
 )
 ```
 
